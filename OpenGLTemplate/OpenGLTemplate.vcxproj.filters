@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\BasicShapes">
+      <UniqueIdentifier>{d5eb352f-53f3-4c3a-a234-5f58e6eec535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{8bf5c3e1-be9e-4c62-8c2d-5c0d5c307b94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stu\events\DoLogicUpdateEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stu\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stu\ShaderErrorHandling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaders\textShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\textShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\mainBasic.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\mainBasic.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\spotlights.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\spotlights.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\NoLightingModel.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\NoLightingModel.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\framebuffer.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\framebuffer.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\interim-shader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\interim-shader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
