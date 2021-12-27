@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "Audio.h"
 
-#pragma comment(lib, "lib/fmod_vc.lib")
+#pragma comment(lib, "fmod_vc.lib")
 
 CAudio::CAudio()
 {}

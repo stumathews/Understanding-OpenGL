@@ -20,7 +20,7 @@
 #include "cgtlib\OpenAssetImportMesh.h"
 #include <windows.h>
 
-#pragma comment(lib, "lib/assimp.lib")
+#pragma comment(lib, "assimp.lib")
 
 COpenAssetImportMesh::MeshEntry::MeshEntry()
 {

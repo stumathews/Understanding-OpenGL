@@ -18,6 +18,11 @@ namespace stu
 		this->IsCreated = false;
 		this->shaderType = type;
 	}
+
+	/// <summary>
+	/// Creates the Shader Object in Memory and uploads the source to it
+	/// </summary>
+	/// <returns>The ID aka name of the created shader object</returns>
 	GLuint Shader::Create()
 	{		
 		if(IsCreated)
@@ -48,14 +53,19 @@ namespace stu
 		{
 			std::cout << "ERROR: "<< name <<" FILE_NOT_SUCCESFULLY_READ" << std::
 			endl;
+			IsCreated = false;
 		}
 
 		const GLchar* code = shaderCode.c_str();
-		Id = glCreateShader(shaderType);	
+
+		// Create a shader object
+		Id = glCreateShader(shaderType);
+
+		// Upload the source into the shader object
 		glShaderSource(Id, 1, &code, NULL); // vertexShaderSource is one long Cstring (ie \0 terminated)
 
 		IsCreated = true;
-		return IsCreated;
+		return Id;
 	}
 
 	bool Shader::Compile()

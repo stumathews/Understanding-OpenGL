@@ -3,7 +3,7 @@
 #include "Texture.h"
 #include "freeimage\FreeImage.h"
 
-#pragma comment(lib, "lib/FreeImage.lib")
+#pragma comment(lib, "FreeImage.lib")
 
 CTexture::CTexture()
 {

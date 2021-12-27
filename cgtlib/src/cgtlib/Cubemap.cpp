@@ -5,7 +5,7 @@
 
 
 #include "freeimage\FreeImage.h"
-#pragma comment(lib, "lib/FreeImage.lib")
+#pragma comment(lib, "FreeImage.lib")
 
 
 bool CCubemap::LoadTexture(string filename, BYTE **bmpBytes, int &iWidth, int &iHeight)

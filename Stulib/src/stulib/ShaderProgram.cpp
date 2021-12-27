@@ -58,9 +58,14 @@ namespace stu {
 	}
 
 
+	/// <summary>
+	/// Compiles the shader
+	/// </summary>
+	/// <param name="shader"></param>
 	void ShaderProgram::AddShader(Shader &shader)
 	{
-		if(!shader.IsReady()){
+		if(!shader.IsReady())
+		{
 			shader.Create();
 			shader.Compile();
 		}
@@ -75,21 +80,39 @@ namespace stu {
 		AddShader(shader);
 	}
 
+	/// <summary>
+	/// Get the number of attached shaders
+	/// </summary>
+	/// <returns></returns>
+	GLint ShaderProgram::GetNumAttachedShaders()
+	{		
+		GLint attachedCount;
+		glGetProgramiv(Id, GL_ATTACHED_SHADERS, &attachedCount);
+		return attachedCount;
+	}
+
+	/// <summary>
+	/// Links each attached shader to the shader program and links the program
+	/// </summary>
+	/// <returns></returns>
 	bool ShaderProgram::Link()
 	{
+		// Attach each shader to the shader program
 		for(auto &shader : shaders)
 		{
-			if(shader.IsOK){
+			if(shader.IsOK)
+			{
 				glAttachShader(Id, shader.Id);
 			}
 		}
 
-		GLint attachedCount;
-		glGetProgramiv(Id, GL_ATTACHED_SHADERS, &attachedCount);
-		std::cout << attachedCount << " attached shaders." << std::endl;
+		// Get the number of attached shaders
+		std::cout << GetNumAttachedShaders() << " attached shaders." << std::endl;
 
+		// Link the program
 		glLinkProgram(Id);
 				
+		// Do some error handeling
 		std::string message;
 
 		if(ShaderErrorHandling::is_gl_error(GL_LINK_STATUS, message, Id, true))

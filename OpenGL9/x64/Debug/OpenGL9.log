@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (OpenGL1.vcxproj, OpenGL2 - Basic Shaders.vcxproj, OpenGL2.vcxproj, OpenGL3.vcxproj, OpenGL4 - Triangle with gl_VertexID.vcxproj, OpenGL4.vcxproj, OpenGL5.vcxproj, OpenGL6.vcxproj, OpenGL7 - Interface block variables.vcxproj, OpenGL7.vcxproj, OpenGL9.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Game.cpp
+C:\repos\UnderstandingOpenGL\OpenGL9\Game.cpp(292,25): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+  OpenGL9.vcxproj -> C:\repos\UnderstandingOpenGL\x64\Debug\OpenGL9 - gl_FragCoord.exe
+  0 File(s) copied

@@ -2,7 +2,7 @@
 #include "FreeTypeFont.h"
 #include <minmax.h>
 
-#pragma comment(lib, "lib/freetype.lib")
+#pragma comment(lib, "freetype.lib")
 
 CFreeTypeFont::CFreeTypeFont()
 {
