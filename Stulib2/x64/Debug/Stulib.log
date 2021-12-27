@@ -1,0 +1,78 @@
+﻿  Box.cpp
+C:\repos\JungleSafariSplit\Stulib\src\stulib\Box.cpp(40,20): warning C4101: 'colorAttribute': unreferenced local variable
+C:\repos\JungleSafariSplit\Stulib\src\stulib\Box.cpp(88,20): warning C4101: 'colorAttribute': unreferenced local variable
+  Cube.cpp
+  DirectionalLight.cpp
+  GameObject.cpp
+  House.cpp
+  InstanceOf.cpp
+  InstancedRenderer.cpp
+C:\repos\JungleSafariSplit\Stulib\src\stulib\InstancedRenderer.cpp(150,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\repos\JungleSafariSplit\Stulib\src\stulib\InstancedRenderer.cpp(162,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\repos\JungleSafariSplit\Stulib\src\stulib\InstancedRenderer.cpp(166,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\repos\JungleSafariSplit\Stulib\src\stulib\InstancedRenderer.cpp(170,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\repos\JungleSafariSplit\Stulib\src\stulib\InstancedRenderer.cpp(174,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\repos\JungleSafariSplit\Stulib\src\stulib\InstancedRenderer.cpp(197,72): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Pickup.cpp
+  Player.cpp
+C:\repos\JungleSafariSplit\Stulib\include\stulib\Player.h(14,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+  PlayerCollisionEvent.cpp
+  Shader.cpp
+  ShaderProgram.cpp
+C:\repos\JungleSafariSplit\Stulib\src\stulib\ShaderProgram.cpp(39,37): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+  Shapes.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(158,77): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(2021): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,glm::vec3&,int,int,float&,float&>(_Ty &,glm::vec3 &,int &&,int &&,float &,float &) noexcept(false)' being compiled
+          with
+          [
+              _Ty=stu::SquareGrid
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(2747): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<glm::vec3&,int,int,float&,float&>(glm::vec3 &,int &&,int &&,float &,float &)' being compiled
+          with
+          [
+              _Ty=stu::SquareGrid
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(2748): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<glm::vec3&,int,int,float&,float&>(glm::vec3 &,int &&,int &&,float &,float &)' being compiled
+          with
+          [
+              _Ty=stu::SquareGrid
+          ]
+C:\repos\JungleSafariSplit\Stulib\src\stulib\Shapes.cpp(638): message : see reference to function template instantiation 'std::shared_ptr<stu::SquareGrid> std::make_shared<stu::SquareGrid,glm::vec3&,int,int,float&,float&>(glm::vec3 &,int &&,int &&,float &,float &)' being compiled
+  Spotlight.cpp
+  Square.cpp
+C:\repos\JungleSafariSplit\Stulib\src\stulib\Square.cpp(334,75): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  SquareGrid.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(158,77): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(2021): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,glm::vec3&,int&,int&>(_Ty &,glm::vec3 &,int &,int &) noexcept(false)' being compiled
+          with
+          [
+              _Ty=stu::Square
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(2747): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<glm::vec3&,int&,int&>(glm::vec3 &,int &,int &)' being compiled
+          with
+          [
+              _Ty=stu::Square
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(2748): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<glm::vec3&,int&,int&>(glm::vec3 &,int &,int &)' being compiled
+          with
+          [
+              _Ty=stu::Square
+          ]
+C:\repos\JungleSafariSplit\Stulib\src\stulib\SquareGrid.cpp(17): message : see reference to function template instantiation 'std::shared_ptr<stu::Square> std::make_shared<stu::Square,glm::vec3&,int&,int&>(glm::vec3 &,int &,int &)' being compiled
+  Star.cpp
+  StuFrameBufferObject.cpp
+C:\repos\JungleSafariSplit\Stulib\src\stulib\StuFrameBufferObject.cpp(54,90): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  TitleScreen.cpp
+C:\repos\JungleSafariSplit\Stulib\src\stulib\TitleScreen.cpp(28,111): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\repos\JungleSafariSplit\Stulib\src\stulib\TitleScreen.cpp(28,89): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  TrackSegment.cpp
+  Generating Code...
+  Compiling...
+  Triangle.cpp
+C:\repos\JungleSafariSplit\Stulib\src\stulib\Triangle.cpp(420,20): warning C4101: 'colourAttribute': unreferenced local variable
+C:\repos\JungleSafariSplit\Stulib\src\stulib\Triangle.cpp(608,54): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  GameObjectEvent.cpp
+  Generating Code...
+  Replacing x64\Debug\pch.obj
+  Replacing x64\Debug\CatmullRom.obj
+  Stulib.vcxproj -> C:\repos\JungleSafariSplit\Stulib\x64\Debug\Stulib.lib
