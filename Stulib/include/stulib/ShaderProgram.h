@@ -111,6 +111,11 @@ namespace stu
 		/// </summary>
 		/// <param name="shader"></param>
 		void CopyAddShader(Shader shader);
+		/// <summary>
+		/// Gets the number of attached shaders
+		/// </summary>
+		/// <returns></returns>
+		GLint GetNumAttachedShaders();
 
 		/// <summary>
 		/// Link the shader program
