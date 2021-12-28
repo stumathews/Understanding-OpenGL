@@ -168,7 +168,7 @@ void Game::Initialise()
     };
     
     // ============================================
-    // Buffer for all vertex Attribute's storage  //
+    // One Buffer for all vertex Attribute's storage  //
     // =============================================
 
     // Create an arbitary buffer object in memory
@@ -222,10 +222,10 @@ void Game::Initialise()
     vertexAttributeIndex = 1; // first vertex attribute if what we'll describe here ie: layout (location = 0) in vec4 position;
     numComponents = 4;        // How many components make up one item in this vertex attribute? 4 floats ie r, g, b, a
     componentType = GL_FLOAT; // each component is a float
-    firstElementOfVertex = offsetof(vertex, r); 
+    firstElementOfVertex = offsetof(vertex, r); // this is cool but could have done sizeof(float) * 4
     glVertexArrayAttribFormat( vao, vertexAttributeIndex, numComponents, componentType, GL_FALSE, firstElementOfVertex);
     // link vertex array attribute 0 with the vertex buffer via vertex buffer binding
-    glVertexArrayAttribBinding(vao, vertexAttributeIndex, vertexBufferBinding);
+    glVertexArrayAttribBinding(vao, vertexAttributeIndex, vertexBufferBinding); // you could associate this vertex attribute with another buffer, ie switch it out (assuming the data in the buffer is in the same format at the vertex attribute)
     glEnableVertexArrayAttrib(vao, vertexAttributeIndex);
 }
 
