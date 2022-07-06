@@ -53,6 +53,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGL15 - Filling multiple
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGL16 - Interleaved vertex buffer", "OpenGL16\OpenGL16.vcxproj", "{BD4158D2-164A-4622-9549-F25D93B82F02}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGL17 - Uniforms", "OpenGL17\OpenGL17.vcxproj", "{090C1119-0104-4632-A970-69BE7DC8A6BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGL18 - Uniform Blocks", "OpenGL18\OpenGL18.vcxproj", "{B4A815A6-07BA-4383-A870-6A3ED4593169}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -229,6 +233,22 @@ Global
 		{BD4158D2-164A-4622-9549-F25D93B82F02}.Release|x64.Build.0 = Release|x64
 		{BD4158D2-164A-4622-9549-F25D93B82F02}.Release|x86.ActiveCfg = Release|Win32
 		{BD4158D2-164A-4622-9549-F25D93B82F02}.Release|x86.Build.0 = Release|Win32
+		{090C1119-0104-4632-A970-69BE7DC8A6BF}.Debug|x64.ActiveCfg = Debug|x64
+		{090C1119-0104-4632-A970-69BE7DC8A6BF}.Debug|x64.Build.0 = Debug|x64
+		{090C1119-0104-4632-A970-69BE7DC8A6BF}.Debug|x86.ActiveCfg = Debug|Win32
+		{090C1119-0104-4632-A970-69BE7DC8A6BF}.Debug|x86.Build.0 = Debug|Win32
+		{090C1119-0104-4632-A970-69BE7DC8A6BF}.Release|x64.ActiveCfg = Release|x64
+		{090C1119-0104-4632-A970-69BE7DC8A6BF}.Release|x64.Build.0 = Release|x64
+		{090C1119-0104-4632-A970-69BE7DC8A6BF}.Release|x86.ActiveCfg = Release|Win32
+		{090C1119-0104-4632-A970-69BE7DC8A6BF}.Release|x86.Build.0 = Release|Win32
+		{B4A815A6-07BA-4383-A870-6A3ED4593169}.Debug|x64.ActiveCfg = Debug|x64
+		{B4A815A6-07BA-4383-A870-6A3ED4593169}.Debug|x64.Build.0 = Debug|x64
+		{B4A815A6-07BA-4383-A870-6A3ED4593169}.Debug|x86.ActiveCfg = Debug|Win32
+		{B4A815A6-07BA-4383-A870-6A3ED4593169}.Debug|x86.Build.0 = Debug|Win32
+		{B4A815A6-07BA-4383-A870-6A3ED4593169}.Release|x64.ActiveCfg = Release|x64
+		{B4A815A6-07BA-4383-A870-6A3ED4593169}.Release|x64.Build.0 = Release|x64
+		{B4A815A6-07BA-4383-A870-6A3ED4593169}.Release|x86.ActiveCfg = Release|Win32
+		{B4A815A6-07BA-4383-A870-6A3ED4593169}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
